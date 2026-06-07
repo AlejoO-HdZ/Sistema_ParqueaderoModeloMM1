@@ -118,16 +118,13 @@ Se ejecutará nuevamente simulación en estado estable con los parámetros valid
 def puntos(): g.graficar_puntos(cajeros)
 def graficas(): g.graficar_todo(cajeros)
 def trans(): g.graficar_transicion(cajeros)
-
 # ---------------------------
 # GUI
 # ---------------------------
 root = tk.Tk()
 root.title("Modelo MM1 - Sistema de Pago CC SuperCentro")
-
 frame = tk.Frame(root)
 frame.pack()
-
 for i in range(3):
     f = tk.LabelFrame(frame, text=f"Cajero {i+1}")
     f.pack(side="left")

@@ -211,7 +211,6 @@ Validación
           ▼
 Resultados finales
 ```
-
 ---
 
 ## 🚀 Ejecución

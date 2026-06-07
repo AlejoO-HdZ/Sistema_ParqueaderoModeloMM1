@@ -3,7 +3,7 @@
 # ---------------------------
 t_corte = [437, 197, 2792 ]
 # ---------------------------
-# MÉTRICAS ESTABLE (RESULTADO FINAL YA PROCESADO)
+# MÉTRICAS ESTABLE ( RESULTADO FINAL PROCESADO )
 # ---------------------------
 cajero_1 = {
     "W": 18.44,

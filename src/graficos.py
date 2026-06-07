@@ -2,15 +2,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 from simulacion import estado_estable
 from tkinter import messagebox, scrolledtext
-
-
 # ---------------------------
 # SUAVIZADO VISUAL
 # ---------------------------
 def suavizar(x, w=10):
     return np.convolve(x, np.ones(w)/w, mode='valid')
-
-
 # ---------------------------
 # PUNTOS DE CORTE
 # ---------------------------

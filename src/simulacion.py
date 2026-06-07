@@ -76,8 +76,6 @@ def estado_estable(datos, ventana=40):
 
     corte = np.argmin(var) + ventana
     return corte, mov
-
-
 # ---------------------------
 # VALIDACIÓN TEÓRICA M/M/1
 # ---------------------------
